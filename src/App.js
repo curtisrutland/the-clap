@@ -18,7 +18,7 @@ function App() {
       </Navbar>
       <Container style={{marginTop: 20}}>
         <Row>
-          <Col>
+          <Col sm={{span: 8, offset: 2}}>
             <Content />
           </Col>
         </Row>

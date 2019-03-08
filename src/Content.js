@@ -14,8 +14,14 @@ export default function Content() {
 
     const outputRef = React.useRef(null);
     const inputRef = React.useRef(null);
+    const loadedRef = React.useRef(false);
 
-    React.useEffect(() => inputRef.current.focus());
+    React.useEffect(() => {
+        if(loadedRef.current === false) {
+            loadedRef.current = true;
+            inputRef.current.focus();
+        }
+    });
 
     const handleSetToken = (val) => () => {
         setToken(val);

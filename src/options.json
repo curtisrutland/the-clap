@@ -6,5 +6,9 @@
     {
         "display": "Clap (Slack)",
         "value": ":clap:"
+    },
+    {
+        "display": "Eggplant (Slack)",
+        "value": ":eggplant:"
     }
 ]
