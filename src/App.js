@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar bg="info" variant="dark">
-        <Container>
+        <Container style={{display: "flex", justifyContent: "center"}}>
           <Navbar.Brand href="#">The Clap</Navbar.Brand>
         </Container>
       </Navbar>
